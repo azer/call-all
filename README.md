@@ -1,4 +1,4 @@
-## call-all
+## call-all  [![Build Status](https://travis-ci.org/azer/call-all.png)](https://travis-ci.org/azer/call-all)
 
 Call Given Async Functions In Given Order
 
