@@ -1,0 +1,25 @@
+{
+  "name": "call-all",
+  "version": "0.0.0",
+  "description": "Call Given Async Functions In Given Order",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "keywords": [
+    "async",
+    "functions"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/call-all.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "iter": "0.0.0"
+  }
+}
