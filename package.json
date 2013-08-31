@@ -1,6 +1,6 @@
 {
   "name": "call-all",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Call Given Async Functions In Given Order",
   "main": "index.js",
   "scripts": {
