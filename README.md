@@ -18,13 +18,13 @@ search = call(searchDDG, searchGoogle, searchBing)
 search('hello world', function (error, results) {
 
   results[0]
-  // => results of DDG
+  // => results by DDG
 
   results[1]
-  // => results of Google
+  // => results by Google
 
   results[2]
-  // => results of Bing
+  // => results by Bing
 
 })
 

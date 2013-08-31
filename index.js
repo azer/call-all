@@ -21,9 +21,11 @@ function call () {
       .run(function (next, ind) {
         fn = functions[ind];
 
+        if (!fn) return next();
+
         params[params.length - 1] = function (error, result) {
           if (error) return callback(error, results);
-          results[ind] = result;
+          results[ind] = Array.prototype.slice.call(arguments, 1);
           next();
         };
 
