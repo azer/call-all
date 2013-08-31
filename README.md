@@ -11,7 +11,11 @@ $ npm install call-all
 ## Usage
 
 ```js
-search = juxt(searchDDG, searchGoogle, searchBing)('hello world', function (error, results) {
+call = require('call-all')
+
+search = call(searchDDG, searchGoogle, searchBing)
+
+search('hello world', function (error, results) {
 
   results[0]
   // => results of DDG
@@ -28,3 +32,5 @@ function searchDDG (keyword, callback) {}
 function searchGoogle (keyword, callback) {}
 function searchBing (keyword, callback) {}
 ```
+
+See `test.js` for more info.
